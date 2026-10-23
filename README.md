@@ -1,0 +1,23 @@
+# JavaScript Calculator
+
+A lightweight web-based calculator built with pure JavaScript, implementing clean UI logic and arithmetic operations.
+
+## Live Demo
+https://mycalprj.netlify.app/
+
+## Screenshot
+![javascript-calculator screenshot](https://image.thum.io/get/width/1200/https://mycalprj.netlify.app/)
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## Features
+- Basic arithmetic: add, subtract, multiply, divide, percentage
+- Backspace and clear functions
+- Error handling for invalid input
+- Simple, responsive layout
+
+## Run Locally
+Open `index.html` in a browser, or serve with any static server (e.g. VS Code Live Server).
