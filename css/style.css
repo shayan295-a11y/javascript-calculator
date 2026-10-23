@@ -1,0 +1,92 @@
+
+
+
+
+
+/* Page background */
+*{
+    background-color: #324028;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Calculator container */
+.contain {
+    width: 290px;
+    padding: 15px;
+    margin: 150px auto;
+    border-radius: 25px;
+    background-color: #1f2323;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* Display box */
+.in-cont {
+    width: 240px;
+    height: 45px;
+    margin: 0 auto 15px auto;
+    padding-right: 10px;
+
+    text-align: right;
+    line-height: 45px;
+    font-size: 22px;
+    
+    background-color: #c7c7c7;
+    border-radius: 18px;
+    border: 2px solid #000;
+}
+
+/* buttons layout */
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background-color: transparent;
+}
+
+/* Circle buttons */
+button {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    border: none;
+
+    background: radial-gradient(circle, #555 30%, #333 90%);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    transition: 0.2s ease;
+}
+
+/* hover effect */
+button:hover{
+    transform: scale(1.12);
+    background: radial-gradient(circle, #777 25%, #444 90%);
+}
+
+/* triangle button (remove/backspace) */
+button.triangle {
+    border-radius: 0;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(145deg, #666, #333);
+}
+
+button.triangle:hover {
+    transform: scale(1.1);
+    background: linear-gradient(145deg, #777, #444);
+}
+
+/* CLEAR button long shape */
+button.clear-btn {
+    grid-column: span 4;
+    height: 55px;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #707070, #4a4a4a);
+    font-size: 18px;
+} 
+ 
