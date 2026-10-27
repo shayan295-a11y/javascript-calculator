@@ -16,6 +16,7 @@ https://mycalprj.netlify.app/
 ## Features
 - Basic arithmetic: add, subtract, multiply, divide, percentage
 - Backspace and clear functions
+- Full keyboard support (type digits/operators, Enter to calculate, Backspace to delete, Escape to clear)
 - Error handling for invalid input
 - Simple, responsive layout
 
