@@ -5,8 +5,13 @@ let display = document.getElementById("display");
     }
 
     function calculate() {
+        const expr = display.innerText.trim();
+        if (!expr) return;
         try {
-            display.innerText = eval(display.innerText);
+            const result = eval(expr);
+            display.innerText = result;
+            // Show the last completed calculation as a history line.
+            document.getElementById("history").innerText = expr + " = " + result;
         } catch {
             display.innerText = "Error";
         }
